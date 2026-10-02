@@ -26,4 +26,4 @@ jobs:
             myapp:latest
 
       - name: List Docker images
-        run: docker images | head -10
+        run: docker images
